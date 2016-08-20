@@ -2,12 +2,12 @@
 <head>
   <title> Quiz App</title>
 </head>
-<body ng-app="testAcademy">
+<body ng-app="testAcademyApp">
 
-  <div ng-controller="MainCtrol as mainCtrol">
+  <div ng-controller="MainCtrl as mainCtrl">
   	<h3> List of questions</h3>
-  	<div ng-repeat="question in mainCtrol.questions">
-  		<div ng-include="mainCtrol.quizTemplate">
+  	<div ng-repeat="question in mainCtrl.questions">
+  		<div ng-include="mainCtrl.quizTemplate">
   	</div>
   </div>
 
